@@ -2,7 +2,7 @@
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
-# Load API key from environment
+# Load API key from the shared .env file
 load_dotenv("../.env", override=True)
 
 # Initialize LangChain model
